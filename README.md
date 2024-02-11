@@ -1,3 +1,6 @@
+![Group 4](https://github.com/Guilherme-PS/100-Days-of-Code-The-Complete-Python-Pro-Bootcamp/assets/114042039/5abb83da-e890-4070-ad3b-f89b35d52e24)
+
+
 ## Sobre o Repositório
 Este repositório contém projetos do curso [100 Days of Code The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/). Este curso aborda várias áreas da tecnologia, como:
 - Automação
