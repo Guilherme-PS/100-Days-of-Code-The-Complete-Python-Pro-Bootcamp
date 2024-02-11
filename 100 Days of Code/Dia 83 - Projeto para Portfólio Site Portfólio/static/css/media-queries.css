@@ -1,0 +1,196 @@
+/* DESKTOP */
+@media only screen and (min-width: 1023px) {
+    /* HOME */
+    #home h1 {
+        font-size: 3rem;
+        letter-spacing: 20px;
+    }
+
+    #home h2 {
+        font-family: 'Josefin Slab', serif;
+        font-size: 2.25rem;
+        letter-spacing: 20px;
+        margin-left: 350px;
+    }
+
+    #home h3 {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+        margin-left: 500px;
+    }
+
+    /* ABOUT */
+    #about .container-fluid {
+        padding: 50px;
+    }
+
+    #about .square {
+        border: 3px solid var(--bg-tertiary);
+        padding: 100px 25px;
+    }
+
+    #about h1 {
+        letter-spacing: 3px;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+
+    #about .tech::after {
+        height: 50px;
+    }
+
+    /* CONTACT */
+    #contact .container-fluid {
+        padding: 75px;
+    }
+    
+    #contact input, textarea {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* TABLET */
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    /* HOME */
+    #home h1 {
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+    }
+
+    #home h2 {
+        font-size: 2rem;
+        letter-spacing: 10px;
+        margin-left: 200px;
+    }
+
+    #home h3 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        margin-left: 325px;
+    }
+
+    /* ABOUT */
+    #about .container-fluid {
+        padding: 50px 50px;
+    }
+
+    #about h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 5px;
+        margin-bottom: 25px;
+    }
+
+    #about h2 {
+        font-size: 2rem; 
+        text-align: left;
+    }
+
+    #about p {
+        font-size: 1.25rem;
+    }
+
+    #about .tech::after {
+        height: 48px;
+    }
+
+    /* CONTACT */
+    #contact .container-fluid {
+        padding: 75px 100px;
+    }
+    
+    #contact h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    #contact h4 {
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+
+    #contact label {
+        font-size: 1.25rem;
+    }
+
+    #contact input, textarea {
+        font-size: 1.1rem;
+    }
+
+    #contact .col-lg-8::before {
+        display: None;
+    }
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+    /* HOME */
+    #home h1 {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    #home h2 {
+        font-size: 1.25rem;
+        letter-spacing: 5px;
+        margin-left: 75px;
+    }
+
+    #home h3 {
+        font-size: 1.15rem;
+        letter-spacing: 3px;
+        margin-left: 115px;
+    }
+
+    /* ABOUT */
+    #about .container-fluid {
+        padding: 30px 15px;
+    }
+
+    #about h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 3px;
+        margin-bottom: 25px;
+    }
+
+    #about h2 {
+        font-size: 1.1rem; 
+        text-align: left;
+    }
+
+    #about p {
+        font-size: 0.75rem;
+    }
+
+    #about .tech::after {
+        height: 31px;
+    }
+
+    /* CONTACT */
+    #contact .container-fluid {
+        padding: 25px;
+    }
+    
+    #contact h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 3px;
+
+    }
+
+    #contact h4 {
+        margin-top: 25px;
+    }
+
+    #contact input, textarea {
+        font-size: 1.1rem;
+    }
+
+    #contact .col-lg-8::before {
+        display: None;
+    }
+}

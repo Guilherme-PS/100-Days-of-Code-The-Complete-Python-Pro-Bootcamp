@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block title %}Guilherme PS{% endblock %}
+
+{% block head %}
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=MedievalSharp&family=Michroma&family=Roboto&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/media-queries.css') }}">
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/styles.css') }}">
+{%  endblock %}
+
+{% block content %}
+<main>
+    <!-- HOME -->
+    <section id="home">
+        <div class="container-fluid">
+            <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" height="100vh" viewBox="0 0 1186 1080" fill="none">
+                <path d="M593 540L1186 0V540V1080H593H0L593 540Z" fill="#E15546"/>
+            </svg>
+
+            <div class="d-flex justify-content-center align-items-center min-vh-100">
+                <div class="position-absolute text">
+                  <h1>Guilherme de Paiva</h1>
+                  <h2>Desenvolvedor Python</h2>
+                  <h3>Estudante de Análise e<br>Desenvolvimento de<br>Sistemas</h3>
+              </div>
+            </div>
+
+            <a href="#about">
+              <div class="d-flex justify-content-center">
+                <svg class="svg-2" xmlns="http://www.w3.org/2000/svg" width="75px" height="100" viewBox="0 0 116 100" fill="none">
+                  <path d="M56.701 94.3525L58 96.6025L59.299 94.3525L109.299 7.75L111.637 3.70073L107.38 5.63426L58 28.0617L8.62029 5.63426L4.36311 3.70073L6.70096 7.75L56.701 94.3525Z" stroke="#EEAF9D" stroke-width="3"/>
+                </svg>
+              </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="" id="about">
+      <div class="container-fluid min-vh-100">
+        <div class="row align-items-center square">
+          <div class="col-lg-1">
+            <h1 class="mx-auto">SOBRE MIM</h1>
+          </div>
+
+          <div class="col-lg-11">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-lg-6 text">
+                <h2>Quem Eu Sou?</h2>
+                <p>Eu sou o Guilherme tenho 21 anos, nasci no Rio de Janeiro, e me encontro atualmente no 5° período do curso de Análise e Desenvolvimento de Sistemas. Meu primeiro contato com a tecnologia ocorreu aos 9 anos, mas foi aos 18 que descobri um forte interesse por programação. Inicialmente, tinha dúvidas sobre minhas áreas de interesse, pois eram várias, mas ao longo do tempo na faculdade, encontrei meu foco nas áreas de Ciência de Dados e Machine Learning.</p>
+              </div>
+              
+              <div class="col-12 col-lg-6 text">
+                <h2>Educação</h2>
+                <small class="mb-0">Fevereiro de 2022 - Dezembro de 2024 (Cursando)</small>
+                <h4 class="mb-0">Análise e Desenvolvimento de Sistemas</h4>
+                <h6>Universidade Estácio de Sá, UNESA</h6>
+              </div>
+
+              <div class="col-12 text">
+                <h2 class="tech">Tecnologias</h2>
+
+                <div class="row g-3 align-items-center mt-3">
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/python-icon.svg" height="65px">
+                  </div>
+                  
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/pandas-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/flask-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/requests-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/html-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/css-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/bootstrap-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/pycharm-icon.svg" height="65px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/colab-icon.svg" width="70px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/vscode-icon.svg" height="55px">
+                  </div>
+
+                  <div class="col-3 col-sm-2 col-lg-1 text-center">
+                    <img src="../static/img/notion-icon.svg" height="65px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container-fluid min-vh-100">
+        <h1 class="text-center mb-5">CONTATO</h1>
+
+        <div class="row gx-5 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-lg-4">
+            <div class="row align-items-center g-3">
+              <div class="col-12 text-center py-3 cards">
+                <a class="fs-2 text-decoration-none link link-light" href="https://github.com/Guilherme-PS" target="_blank">Github</a>
+              </div>
+
+              <div class="col-12 text-center py-3 cards">
+                <a class="fs-2 text-decoration-none link link-light" href="https://www.linkedin.com/in/guilherme-de-paiva-950034249/" target="_blank">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-8 position-relative">
+            <h4 class="mb-4">Ou se preferir, me envie um e-mail!</h4>
+
+            <form action={{ url_for('home') }} method="POST">
+              <label for="email">E-mail <span>*</span></label><br>
+              <input class="mb-3" type="text" name="email" placeholder="D i g i t e  s e u  e - m a i l"/><br>
+  
+              <label for="subject">Assunto <span>*</span></label><br>
+              <input class="mb-3" type="text" name="subject" placeholder="D i g i t e  o  A s s u n t o"/><br>
+  
+              <label for="message">Mensagem <span>*</span></label><br>
+              <textarea type="text" name="message" placeholder="D i g i t e  a  M e n s a g e m" rows="4"></textarea><br>
+
+              <div class="text-center">
+                <button class="mt-4 px-4 py-2" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+{%  endblock %}

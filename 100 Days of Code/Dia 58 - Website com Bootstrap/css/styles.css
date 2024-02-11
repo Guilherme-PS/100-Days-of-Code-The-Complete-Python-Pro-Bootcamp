@@ -1,0 +1,227 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+/* tags h */
+
+.big-heading {
+    color: #F9F9F9;
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 2% 15% 7%;
+}
+
+/* Seções */
+.colored-section {
+    background-color: #FF4C68;
+    color: #F9F9F9;
+}
+
+.white-section {
+    background-color: #F9F9F9;
+}
+
+/* Titulo */
+#title {
+    text-align: left;
+}
+
+/* Barra de Navegação */
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    gap: 1.125rem;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+/* Botões de Download */
+.download-btn {
+    margin: 3% 3% 5% 0;
+    transition: all 0.3s ease;
+}
+
+/* Imagem Iphone */
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+#features {
+    padding: 5% 15%;
+    line-height: 1.1;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-icons {
+    color:#FA8072;
+    padding-bottom: 4%;
+    transition: all 0.5s ease;
+}
+
+.fa-circle-check:hover {
+    color: #41A145;
+}
+
+.fa-bullseye:hover {
+    color: #FE0000;
+}
+
+.fa-heart:hover {
+    color: #FF033E;
+}
+
+/* Testemunhos */
+#testimonials {
+    background-color: #FA8072;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    margin: 20px;
+    width: 12%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #FA8072;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 5px 15px 50px;
+}
+
+/* Preços */
+#pricing {
+    padding: 100px 150px;
+}
+
+.price-text {
+    font-size: 2.5rem;
+}
+
+.price-btn {
+    border-color: #FA8072;
+    color: #FA8072;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.price-btn:hover {
+    color: #F9F9F9;
+    background-color: #FA8072;
+}
+
+/* cta */
+#cta {
+    padding: 7% 15% 4%;
+}
+
+/* footer */
+#footer {
+    padding: 5%;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-envelope {
+    border: 1px solid #8F8F8F;
+    border-radius: 100%;
+    color: #393939;
+    font-size: 20px;
+    margin: 2% 1% 2% 1%;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.fa-twitter:hover {
+    background-color: #4099ff;
+    border-color: #4099ff;
+    color: #F9F9F9;
+}
+
+.fa-facebook:hover {
+    background-color: #3B5998;
+    border-color: #3B5998;
+    color: #F9F9F9;
+}
+
+.fa-instagram:hover {
+    background-color: #E43C5F;
+    border-color: #E43C5F;
+    color: #F9F9F9;
+}
+
+.fa-envelope:hover {
+    background-color: #393939;
+    border-color: #393939;
+    color: #F9F9F9;
+}
+
+@media (max-width: 1030px){
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 50%;
+        transform: rotate(0);
+    }
+}

@@ -1,0 +1,165 @@
+/* Definição de estilo para o corpo da página. */
+body {
+    color: #40514E; /* Cor da fonte. */
+    font-family: Century Gothic; /* Tipo de fonte. */
+    margin: 0; /* Margem do corpo. */
+    text-align: center; /* Alinhamento do texto. */
+  }
+  
+  /* Definição de estilo para os cabeçalhos h1, h2, h3, h4 e parágrafos. */
+  h1, h2, h3, h4, p {
+    font-family: Century Gothic; /* Tipo de fonte.*/
+    font-size: 1rem; /* Tamanho da fonte. */
+    margin: 0; /* Margem do elemento. */
+    padding-bottom: 10px; /* Espaço abaixo do elemento. */
+  }
+  
+  /* Estilo específico para o cabeçalho h1. */
+  h1 {
+    color: #66BFBF; /* cor da fonte. */
+    font-family: 'Dancing Script', cursive; /* Tipo de fonte. */
+    font-size: 2.5rem; /* Tamanho da fonte. */
+    padding-bottom: 0px; /* Espaço abaixo do elemento. */
+  }
+  
+  /* Estilo específico para o cabeçalho h2. */
+  h2 {
+    color: #66BFBF; /* Cor da fonte. */
+    font-family: "Quicksand", sans-serif; /* Tipo de fonte. */
+    font-size: 1.7rem; /* Tamanho da fonte. */
+  }
+  
+  /* Estilo específico para o cabeçalho h3. */
+  h3 {
+    color: #11999E; /* Cor da fonte. */
+    font-size: 1.2rem; /* Tamanho da fonte. */
+    font-weight: normal; /* Estilo da fonte. */
+  }
+  
+  /* Estilo específico para o cabeçalho h4. */
+  h4 {
+    color: #0abab5; /* Cor da fonte. */
+    font-family: "Quicksand", sans-serif; /* Tipo de fonte. */
+    font-size: 0.875rem; /* Tamanho da fonte. */
+    margin-top: 0px; /* Margem acima do elemento. */
+  }
+  
+  /* Estilo específico para parágrafos. */
+  p {
+    color: #40514E; /* Cor da fonte. */
+    font-size: 0.875rem; /* Tamanho da fonte. */
+    line-height: 2; /* Espaço entre linhas. */
+  }
+  
+  /* Estilo da linha horizontal. */
+  hr {
+    border-top: dotted; /* Estilo da borda da linha. */
+    color: #EAF6F6; /* Cor da linha. */
+    clear: left; /* Posicionamento da linha. */
+    margin: 25px auto 25px auto; /* Margem da linha. */
+    width: 3.125rem; /* Tamanho da linha. */
+  }
+  
+  /* Estilo específico para a classe ".top_div". */
+  .top_div {
+    background-color: #E4F9F5; /* Cor de fundo. */
+    position: relative; /* Tipo de posicionamento. */
+    padding-top: 125px; /* Espaço acima do elemento. */
+  }
+  
+  /* Configuração para a classe ".top_cloud" e ".bot_cloud". */
+  .top_cloud, .bot_cloud {
+    position: absolute; /* Tipo de posicionamento da nuvem. */
+  }
+  
+  /* Configuração para a classe ".top_cloud". */
+  .top_cloud {
+    right: 300px; /* Define a posição da nuvem 300px de distância da direita.*/
+    top: 75px; /* E 75px de distãncia do topo. */
+  }
+  
+  /* Configuração para a classe ".bot_cloud". */
+  .bot_cloud {
+    bottom: 300px; /* Posiciona a nuvem 300px para a baixo. */
+    left: 325px; /* Posiciona a nuvem 325px para a esquerda. */
+  }
+  
+  /* Configurações para a classe ".intro". */
+  .intro {
+    margin: auto; /* Define a margem. */
+    width: 45%; /* Define o tamanho do elemento. */
+  }
+
+  /* Configurações para a classe ".prog_img". */
+  .prog_img {
+    float: left; /* Faz com que o elemento flutue à esquerda. */
+    margin: 15px 25px auto auto; /* Define a margem. */
+    width: 25%; /* Define o tamanho do elemento. */
+  }
+  
+  /* Configurações da classe ".skill-row". */
+  .skill-row {
+    margin: auto; /*Define a margem. */
+    text-align: left; /* Define o alinhamento do texto. */
+    width: 50%; /* Define o tamanho do elemento. */
+  }
+  
+  /* Configurações da classe ".sed_me". */
+  .send-me {
+    padding-bottom: 30px; /* Espaço abaixo do elemento. */
+  }
+
+  /* Configurações da classe ".btn". */
+.btn {
+    background: #11cdd4; /* Define a cor de fundo do botão. */
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e); /* Define a gradiente de cor de fundo do botão para diferentes navegadores. */
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8; /* Define o arredondamento das bordas do botão. */
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Quicksand", sans-serif; /* Define o tipo da fonte. */
+    color: #ffffff; /* Define a cor da fonte. */
+    font-size: 20px; /* Define o tamanho da fonte. */
+    padding: 10px 20px 10px 20px; /* Define o espaço ao redor do botão. */
+    text-decoration: none; /* Remove a decoração do texto. */
+}
+
+/* Configurações de estilo para o botão quando o mouse estiver sobre ele. */
+.btn:hover {
+    background: #30e3cb; /* Define a cor do botão. */
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad); /* Define o gradiente de cor do botão para diferentes navegadores. */
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none; /* Remove a decoração do texto. */
+}
+
+/* Configurações da classe ".bot_div". */
+.bot_div {
+    background-color: #66BFBF; /* Define a cor de fundo. */
+    padding: 25px; /* Define o espaço ao redor do elemento. */
+    margin-top: 75px; /* Define a margem em cima do elemento. */
+    position: relative; /* Define o tipo de posição. */
+}
+
+/* Configurações da classe ".footer_link". */
+.footer-link {
+    color: #11999E; /* Define a cor da fonte. */
+    font-weight: bold; /* Define o estilo da fonte. */
+    padding: 5px; /* Define o espaço ao redor do elemento. */
+    text-decoration: none; /* Remove a decoração do texto. */
+}
+
+/* Configurações da classe ".btn".*/
+.btn {
+    color: #EAF6F6; /* Define a cor da fonte. */
+}
+
+/* Configurações de estilos para a classe ".footer_link" quando o mouse estiver sobre ele. */
+.footer-link:hover {
+    color: #EAF6F6 /* Define a cor da fonte. */
+}
